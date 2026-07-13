@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     {
         MovementPlayer();
         Morir();
-        
+        ganar();
 
 
 
@@ -112,17 +112,17 @@ public class Player : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    /*public void ganar()
+    public void ganar()
     {
         if (temporizador.tiempoTranscurrido >= temporizador.TiempoLimite)
         {
             HasGanado = true;
             if (HasGanado)
             {
-                anim.SetTrigger("Ganar");
+                anim.SetBool("Ganar", true);
                 Debug.Log("has ganado felicidades");
             }
         }
-    }*/
+    }
     
 }

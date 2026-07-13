@@ -27719,10 +27719,12 @@ MonoBehaviour:
   VidaMaxima: 100
   currentWeapon: {fileID: 737682029}
   estaMuerto: 0
+  HasGanado: 0
   direccionMirando: {x: 0, y: -1}
   anim: {fileID: 1954303496}
   moving: 0
   pantallaMuerte: {fileID: 2028722955}
+  temporizador: {fileID: 2031180833}
 --- !u!212 &1954303498
 SpriteRenderer:
   serializedVersion: 2
